@@ -5,7 +5,7 @@ LABEL maintainer="vijayendar@opsmx.com"
 # Update the image to the latest packages
 RUN apt-get update && apt-get upgrade -y
 
-# Install NGINX to test.
+# Install NGINX to test
 RUN apt-get install nginx -y
 
 # set a health check
